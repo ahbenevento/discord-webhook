@@ -1,0 +1,9 @@
+{
+    "webhooks": [
+        "https://discord.com/api/webhooks/..."
+    ],
+    "aliases": {
+        "test": "https://discord.com/api/webhooks/...",
+        "prd": "https://discord.com/api/webhooks/...",
+    }
+}
