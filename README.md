@@ -11,10 +11,11 @@ Packages used:
 ## Use
 
 ```console
-discordwh [-u username] [-a avatar-url] channel "message"
+discordwh [-u username] [-a avatar-url] [--dry-run] channel "message"
 ```
 
 - **username** Username used for message.
 - **avatar-url** Avatar image URL.
 - **channel** Full or partial channel ID, alias (configured) or channel URL.
 - **message** Text of message.
+- **dry-run** Use this parameter to perform a trial run without send the message.
